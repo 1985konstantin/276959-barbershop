@@ -6,11 +6,9 @@
     </head>
     <body>
       <header class="main-header">
-        <div class="header-logo">
-             <a href="#"> <img src="#" alt="logo"></a>
-             </div>
         <div class="container">
           <nav class="main-navigation">
+          <a href="#"> <img class="header-logo" src="#" alt="logo"></a>
           <ul>
             <li>
               <a href="#">информация</a>
@@ -50,8 +48,12 @@
               </ul>
             </nav>
       <form action="#" method="get">
-        <div class="checkbox-area select-producer">
-                      <h2> производители:</h2>
+        <div class="aside">
+                 <fieldset>
+                   <legend>производители:</legend>
+                 </fieldset>
+        </div>
+                 <div class="checkbox">
                  <label>
                    <input type="checkbox" checked>
                    baxter of california
@@ -78,53 +80,56 @@
                  </label>
                </div>
         <div class="radio">
-            <h2> группы товаров:</h2>
+          <fieldset>
+            <legend>группы товаров:</legend>
+          </fieldset>
           <input type="radio" name="items" value="бритвенные принадлежности">
           <input type="radio" name="items" value="средства для ухода" checked>
           <input type="radio" name="items" value=" аксессуары">
               </div>
       <input type="submit" value="показать">
+    </div>
         </form>
         <div class="catalog-list">
           <div class="catalog-item">
                 <a href="#"> <img src="#" alt="BAXTER OF CALIFORNIA"></a>
-                 <h3>Набор для путешествий<br>"BAXTER OF CALIFORNIA" </h3>
+                 <h2><a href="#"><span class="category"> Набор для путешествий</span><span class="item">"BAXTER OF CALIFORNIA"</span></a></h2>
                  <b>2900 р.</b>
                  <a class="btn" href="#">КУПИТЬ</a>
            </div>
           <div class="catalog-item">
                  <a href="#"><img src="#" alt="BAXTER OF CALIFORNIA"></a>
-                 <h3>Увлажняющий кондиционер<br>"BAXTER OF CALIFORNIA" </h3>
+                 <h2><a href="#"><span class="category">Увлажняющий кондиционер</span><span class="item">"BAXTER OF CALIFORNIA" </span></a></h2>
                  <b>750 р.</b>
                  <a class="btn" href="#">КУПИТЬ</a>
           </div>
           <div class="catalog-item">
                 <a href="#"><img src="#" alt="SUAVECITO"></a>
-                <h3>Гель для волос<br>"SUAVECITO" </h3>
+                <h2><a href="#"><span class="category">Гель для волос</span><span class="item">"SUAVECITO" </span></a></h2>
                 <b>290 р.</b>
                   <a class="btn" href="#">КУПИТЬ</a>
           </div>
          <div class="catalog-item">
                 <a href="#"><img src="#" alt="AMERICAN CREW"></a>
-               <h3>Гель для укладки волос<br>"AMERICAN CREW" </h3>
+               <h2><a href="#"><span class="category">Гель для укладки волос</span><span class="item">"AMERICAN CREW" </span></a></h2>
                <b>500 р.</b>
                <a class="btn" href="#">КУПИТЬ</a>
           </div>
          <div class="catalog-item">
                  <a href="#"><img src="#" alt="AMERICAN CREW"></a>
-               <h3>Глина для укладки волос<br>"AMERICAN CREW" </h3>
+               <h2><a href="#"><span class="category">Глина для укладки волос</span><span class="item">"AMERICAN CREW" </span></a></h2>
                <b>500 р.</b>
                <a class="btn" href="#">КУПИТЬ</a>
           </div>
          <div class="catalog-item">
                <a href="#"><img src="#" alt="AMERICAN CREW"></a>
-               <h3>Гель для укладки волос<br>"AMERICAN CREW" </h3>
+               <h2><a href="#"><span class="category">Гель для укладки волос</span><span class="item">"AMERICAN CREW" </span></a></h2>
                <b>300 р.</b>
                <a class="btn" href="#">КУПИТЬ</a>
           </div>
          <div class="catalog-item">
               <a href="#"><img src="#" alt="BAXTER OF CALIFORNIA"></a>
-              <h3>Набор для бритья<br>"BAXTER OF CALIFORNIA" </h3>
+              <h2><a href="#"><span class="category">Набор для бритья</span><span class="item">"BAXTER OF CALIFORNIA" </span></a></h2>
               <b>3900 р.</b>
               <a class="btn" href="#">КУПИТЬ</a>
           </div>
@@ -143,12 +148,14 @@
               <a class="btn" href="#">4</a>
           </li>
         </ul>
-        <div class="popup">
-<div class="overlay">
-<a href="#" class="btn">popup</a>
-    <a href="#" class="close">x</a>
-</div>
-</div>
+        <div class="b-container">
+           Text
+        </div>
+        <div class="b-popup">
+        <div class="b-popup-content">
+            Text
+       </div>
+       </div>
       </main>
       <footer class="main-footer">
         <div class="container">
