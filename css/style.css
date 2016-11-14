@@ -1,4 +1,154 @@
-html, body{
-  width: 100%;
-  min-height: 100%;
+.body{
+font-weight: Regular;
+font-family: PTSans,Arial;
+background: #000000 url ("img/tint.jpg") no-repeat 50% 3px;
+ background-size: 1122px auto;
 }
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.container-header {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+.main-header {
+  margin-bottom: 60px;
+}
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.features-name{
+  font-size: 30px;
+  color: ffffff;
+  line-height: 42px;
+}
+.features-item.p{
+  font-size: 14px;
+  color: ffffff;
+  line-height: 24px;
+}
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+}
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+.index-content-title{
+  font-size:30px;
+  color: 000000;
+  line-height: 42px;
+}
+.index-content-title.p{
+  font-size: 14px;
+  color: 000000;
+  line-height: 24px;
+}
+.main-footer{
+  font-size: 14px;
+  color: 000000;
+  line-height: 24px;
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+padding-bottom: 40px;
+}
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+}
+.header-list {
+display: inline-block
+}
+.breadcrumbs{
+  width: 630px;
+  padding: 0 10px;
+}
+.gallery-content{
+  float: left;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.gallery-bottom{
+  width: 460px;
+  float: left;
+  padding:0 10px;
+  vertical-align: top;
+}
+.gallery-content:last-child {
+  margin-right: 0;
+}
+.travel-kit{
+  float: right;
+  width: 400px;
+}
+.int-footer{
+  clear: both;
+  margin-top: 65px;
+  padding-top: 60px;
+padding-bottom: 40px;
+}
+.int-footer .footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+.int-footer .footer-social {
+  float: left;
+  width: 180px;
+}
+
+.int-footer .footer-copyright {
+  float: right;
+  width: 180px;

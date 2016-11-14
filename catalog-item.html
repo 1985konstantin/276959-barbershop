@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-      <link href="style.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
       <meta charset="utf-8">
       <title>барбершоп "Бородинский"</title>
     </head>
     <body>
-      <header class="main-header-inner">
-        <div class="container">
+      <header class="main-header">
+        <div class="container clearfix">
           <nav class="main-navigation">
-            <a href="#"> <img src="img/Logo.png" width="111" height="24"></a>
+            <a href="#"> <img src="img/logo.png" width="111" height="24"></a>
             <ul>
-              <li>
+              <li class="header-list">
               <a href="#">информация</a>
               </li>
-              <li>
+              <li class="header-list">
               <a href="#">новости</a>
               </li>
-              <li>
+              <li class="header-list">
               <a href="#">прайс-лист</a>
               </li>
-              <li>
+              <li class="header-list">
               <a href="#" class="activ">магазин</a>
               </li>
-              <li>
+              <li class="header-list">
               <a href="#">контакты</a>
               </li>
               </ul>
            </nav>
           <div class="user=block">
-              <a class="login" href="#">Вход</a>
+  <a class="login" href="#"><img src="img/.icon-login.png" width="18" height="16">Вход</a>
           </div>
       </div>
       </header>
         <main class="container">
-              <h1>набор для путешествий "baxter of california"</h1>
-              <nav class="breadcrumbs">
-                 <ul>
-                 <li>
+              <nav class="breadcrumbs clearfix">
+                <h2 class="bread">Набор для путешествий "BAXTER OF CALIFORNIA"</h2>
+                 <ul class="bread-menu">
+                 <li class="header-list">
                  <a href="#">главная</a>
                  </li>
-                 <li>
+                 <li class="header-list">
                  <a href="#">магазин</a>
                  </li>
-                 <li>
+                 <li class="header-list">
                  <a href="#">средства для умывания</a>
                  </li>
-                 <li>
+                 <li class="header-list">
                 <span class="activ">набор для путешествий "baxter of california"</span>
                 </li>
               </ul>
@@ -54,15 +54,17 @@
        <div class="item">
           <div class="gallery">
                   <figure class="gallery-content">
-                  <span><a href="#"><img src="img/image 1.jpg" width="486" height="524" alt="baxter of california"></a></span>
-              <div>
-                  <span><a href="#"><img src="img/image 2.jpg" width="166" height="175" alt="baxter of california"></a></span>
-                  <span><a href="#"><img src="img/image 3.jpg" width="166" height="175" alt="baxter of california"></a></span>
-                  <span><a href="#"><img src="img/image 4.jpg" width="166" height="175" alt="baxter of california"></a></span>
+                  <span><a href="#"><img src="img/item image 1.jpg" width="486" height="524" alt="baxter of california"></a></span>
+              <div class="gallery-bottom">
+                    <span><a href="#"><img src="img/item image 2-1.jpg" width="166" height="175" alt="baxter of california"></a></span>
+                  <span><a href="#"><img src="img/item image 3.jpg" width="166" height="175" alt="baxter of california"></a></span>
+                  <span><a href="#"><img src="img/item image 4.jpg" width="166" height="175" alt="baxter of california"></a></span>
              </div>
                   </figure>
           </div>
-          <div class="travel-kit">
+      </div>
+    <div class="travel-kit">
+            <div>
                   <b>Есть в наличии</b>
                   <b>Артикул: Dexter- AE</b>
                   <p>travel kit- необходимый аксессуар во время любого
@@ -73,7 +75,7 @@
                   также может стать отличным подарком.</p>
                   <b>2 900 руб.</b>
                   <a class="btn" href="#">КУПИТЬ</a>
-          </div>
+                </div>
           <div class="content-item">
             <ul class="content">
                   <li>
@@ -93,30 +95,27 @@
                   </li>
              </ul>
          </div>
-    </div>
-
+     </div>
           </main>
-           <footer class="main-footer">
-             <div class="container">
-               <section class="footer">
-                 Барберошоп "Бородинский"<br>
-                 Адрес: г. Санкт- Петербург, Б. Конюшенная, д. 19/8<br>
-                 Телефон: +7(812) 666-02-66
-                 Время работы:<br>
-                 пн-пт: с 10:00 до 22:00<br>
-                 сб-вс: с 10:00 до 19:00
-               </section>
-               <section class="footer">
-                 <p>Давайте дружить!</p>
-                 <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-                 <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-                 <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-               </section>
-               <section class="footer">
-                 <p>Разработано:</p>
-                 <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-               </section>
-             </div>
-           </footer>
-    </body>
-    </html>
+          <footer class="int-footer">
+            <div class="container">
+              <section class="footer-contacts">
+                Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                <a href="#">Как нас найти?</a><br>
+                Телефон: +7 (812) 666-02-66
+              </section>
+              <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+              </section>
+              <section class="footer-copyright">
+                <p>Разработано:</p>
+                <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+              </section>
+            </div>
+          </footer>
+        </body>
+      </html>
